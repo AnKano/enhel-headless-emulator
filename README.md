@@ -55,7 +55,6 @@ struct SoundOutputState {
 
 |
 |       // nested structure
-|       //
 \-->    struct SoundEvent {
             // raw samples data
             std::vector<uint8_t> buffer_;
