@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.4)
+project(enhel)
+
+set(CMAKE_CXX_STANDARD 20)
+
+set(MAIN_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+file(GLOB_RECURSE CPP_HEADERS ${MAIN_SOURCE_DIR}/*.hpp ${MAIN_SOURCE_DIR}/*.h)
+file(GLOB_RECURSE CPP_SOURCES ${MAIN_SOURCE_DIR}/*.cpp ${MAIN_SOURCE_DIR}/*.c)
+
+add_library(libenhel STATIC ${CPP_HEADERS} ${CPP_SOURCES})
