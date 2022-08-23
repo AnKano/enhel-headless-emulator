@@ -10,7 +10,7 @@ All rights reserved by the original author of the emulator (...Kent Dickey?).
 ## How to use
 
 Simply add a directory using `add_subdirectory`, and add include files using `include_directories`. Then link the library using `target_link_libraries`.
-The emulator will look for kegs.config (similar to KEGS) in application root and dependent files when started using StartEmulator.
+The emulator will look for config.kegs (similar to KEGS) in application root and dependent files when started using `StartEmulator`.
 
 ## Interface description
 
