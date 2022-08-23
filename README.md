@@ -1,5 +1,7 @@
 ## Enhel Headless KEGS emulator
 
+#StandWithUkraine 🇺🇦
+
 Built on the [KEGS/SDL emulator](http://devernay.free.fr/apple2/) (before porting to SDL, at version 0.63) through rough removal of platform-dependent code to create compatibility with all possible compilers.
 
 The code base has been rewritten for C++ compatibility, and portable entities have been added for easier use (mutexes, vectors, etc.)
