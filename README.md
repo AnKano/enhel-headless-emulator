@@ -14,6 +14,10 @@ All rights reserved by the original author of the emulator (...Kent Dickey?).
 Simply add a directory using `add_subdirectory`, and add include files using `include_directories`. Then link the library using `target_link_libraries`.
 The emulator will look for config.kegs (similar to KEGS) in application root and dependent files when started using `StartEmulator`.
 
+## Examples
+
+In [this](https://github.com/AnKano/enhel-raylib-example) repository you can find a complete example of how to use the features with the Raylib library.
+
 ## Interface description
 
 ```
